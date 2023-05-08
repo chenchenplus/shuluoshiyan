@@ -1,0 +1,1429 @@
+%PDF-1.4
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 3675.00 2730.00]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 16484
+>>
+stream
+0.20 w
+0 G
+2 J
+0 j
+100 M
+1.00 g
+[] 0 d
+0.00 2730.00 3675.00 -2730.00 re
+f
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2645.00 1910.00 Td
+(IF) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2595.00 1845.00 Td
+(state = 3'b0;) Tj
+T* (next_state =3'b1;) Tj
+T* (MemRead = 1'b1;) Tj
+T* (IRWrite = 1'b1;) Tj
+T* (PCWrite = 1'b1;) Tj
+T* (PCSource =2'b00;) Tj
+T* (ALUSrcA = 2'b00;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b01;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2530.00 1895.00 265.00 -330.00 re
+S
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2915.00 1895.00 265.00 -330.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2980.00 1845.00 Td
+(state = 3'b1;) Tj
+T* (next_state =3'b10;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b00;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b11;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+0.00 g
+[] 0 d
+2915.000 1730.000 m 
+2900.000 1722.500 l
+2903.750 1730.000 l
+2900.000 1737.500 l
+h
+f
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+3030.00 1910.00 Td
+(ID) Tj
+ET
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2795.000 1730.000 m 
+2910.000 1730.000 l
+2915.000 1730.000 l
+S
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+1765.00 1370.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+1840.00 1395.00 Td
+(sll,srl,sra) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2290.00 1380.00 Td
+(jr) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2195.00 1370.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2900.00 1395.00 Td
+(add,addu,sub,subu,and,or,xor,nor,slt,slti) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2915.00 1380.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2500.00 2545.00 Td
+(j) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2390.00 2525.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+3125.00 2545.00 Td
+(jal) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+3020.00 2530.00 250.00 -310.00 re
+S
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2195.00 605.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2215.00 635.00 Td
+(sw,lw,addi,addiu,slti,sltiu) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2575.00 465.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2690.00 495.00 Td
+(andi) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2930.00 320.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+3040.00 340.00 Td
+(lui) Tj
+ET
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3040.000 1565.000 m 
+2340.000 1375.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3035.000 1565.000 m 
+2705.000 1375.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3035.000 1565.000 m 
+3045.000 1385.000 l
+S
+10.00 w
+BT
+15.00 TL
+0.000 0.000 1.000 rg
+1160.00 1810.00 Td
+/F2 15 Tf
+<5199516551855b58> Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+1075.00 1790.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+1810.00 1320.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b11;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b10;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b11;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2245.00 1320.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b1;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b00;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2625.00 1325.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b1;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b00;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b10;) Tj
+T* (RegDst = 2'b01;) Tj
+T* (RegWrite = 1'b1;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+2570.00 1375.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2665.00 1385.00 Td
+(jalr) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2970.00 1330.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b11;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b00;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2985.00 270.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b11;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b1;) Tj
+T* (LuiOp = 1'b1;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2625.00 400.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b11;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2255.00 555.00 Td
+(state = 3'b10;) Tj
+T* (next_state =3'b11;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b1;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+2445.00 2475.00 Td
+(state = 3'b1;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b1;) Tj
+T* (PCSource =2'b10;) Tj
+T* (ALUSrcA = 2'b00;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b11;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+3070.00 2485.00 Td
+(state = 3'b1;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b1;) Tj
+T* (PCSource =2'b10;) Tj
+T* (ALUSrcA = 2'b00;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b11;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b10;) Tj
+T* (RegDst = 2'b10;) Tj
+T* (RegWrite = 1'b1;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3030.000 1565.000 m 
+1895.000 1370.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3025.000 1570.000 m 
+3665.000 1240.000 l
+3665.000 1130.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3665.000 1140.000 m 
+3660.000 195.000 l
+3175.000 195.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2820.000 360.000 m 
+3655.000 360.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2445.000 515.000 m 
+3660.000 520.000 l
+S
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+270.00 1335.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+305.00 1355.00 Td
+(andi,lui,addi,addiu,slti,sltiu) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+1085.00 1335.00 250.00 -310.00 re
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+1185.00 1355.00 Td
+(lw) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+785.00 1350.00 Td
+(sw) Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+675.00 1335.00 250.00 -310.00 re
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2190.000 445.000 m 
+780.000 440.000 l
+785.000 1020.000 l
+780.000 1025.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+1210.000 1025.000 m 
+1205.000 445.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+775.000 440.000 m 
+395.000 440.000 l
+395.000 1025.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2570.000 230.000 m 
+355.000 235.000 l
+355.000 1020.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2930.000 60.000 m 
+315.000 60.000 l
+315.000 1025.000 l
+S
+10.00 w
+BT
+15.00 TL
+0.000 0.000 1.000 rg
+1485.00 975.00 Td
+/F1 15 Tf
+(R) Tj
+/F2 15 Tf
+<578b63074ee47ed3675f> Tj
+ET
+2 J
+0 j
+100 M
+1.00 w
+0.00 G
+[] 0 d
+1435.00 955.00 250.00 -310.00 re
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+1885.000 1060.000 m 
+1885.000 850.000 l
+1685.000 850.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3045.000 1070.000 m 
+3045.000 850.000 l
+1885.000 850.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2255.000 1370.000 m 
+2255.000 1400.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2255.000 1470.000 m 
+2255.000 1750.000 l
+2525.000 1750.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+[] 0 d
+2255.000 1400.000 m 
+2232.91 1400.00 2215.00 1415.67 2215.00 1435.00 c
+2215.00 1454.33 2232.91 1470.00 2255.00 1470.00 c
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+1590.000 955.000 m 
+1590.000 1725.000 l
+1590.000 1750.000 l
+2255.000 1750.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+1230.000 1480.000 m 
+1230.000 1335.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+1590.000 1750.000 m 
+1325.000 1750.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+845.000 1335.000 m 
+845.000 1925.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+520.000 1150.000 m 
+585.000 1150.000 l
+585.000 1925.000 l
+2170.000 1930.000 l
+2170.000 1930.000 l
+2170.000 1750.000 l
+S
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+1495.00 905.00 Td
+(state = 3'b11;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b10;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b11;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b01;) Tj
+T* (RegDst = 2'b01;) Tj
+T* (RegWrite = 1'b1;) Tj
+T* (ExtOp = 1'b0;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+740.00 1290.00 Td
+(state = 3'b11;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b1;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b1;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b1;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+1155.00 1290.00 Td
+(state = 3'b11;) Tj
+T* (next_state =3'b100;) Tj
+T* (MemRead = 1'b1;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b1;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b0;) Tj
+T* (ExtOp = 1'b1;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+325.00 1290.00 Td
+(state = 3'b11;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b0;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b0;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b01;) Tj
+T* (RegDst = 2'b01;) Tj
+T* (RegWrite = 1'b1;) Tj
+ET
+10.00 w
+BT
+/F1 15 Tf
+15.00 TL
+0.000 0.000 1.000 rg
+1140.00 1740.00 Td
+(state = 3'b100;) Tj
+T* (next_state =3'b0;) Tj
+T* (MemRead = 1'b1;) Tj
+T* (IRWrite = 1'b0;) Tj
+T* (PCWrite = 1'b0;) Tj
+T* (PCSource =2'b0;) Tj
+T* (ALUSrcA = 2'b01;) Tj
+T* (IorD = 1'b1;) Tj
+T* (ALUSrcB = 2'b10;) Tj
+T* (PCWriteCond = 1'b0;) Tj
+T* (MemWrite = 1'b0;) Tj
+T* (MemtoReg = 2'b00;) Tj
+T* (RegDst = 2'b0;) Tj
+T* (RegWrite = 1'b1;) Tj
+T* (ExtOp = 1'b1;) Tj
+T* (LuiOp = 1'b0;) Tj
+ET
+0.00 g
+[] 0 d
+2530.000 1750.000 m 
+2515.000 1742.500 l
+2518.750 1750.000 l
+2515.000 1757.500 l
+h
+f
+0.00 g
+[] 0 d
+175.000 1870.000 m 
+160.000 1862.500 l
+163.750 1870.000 l
+160.000 1877.500 l
+h
+f
+0.00 g
+[] 0 d
+170.000 1780.000 m 
+177.500 1765.000 l
+170.000 1768.750 l
+162.500 1765.000 l
+h
+f
+0.00 g
+[] 0 d
+165.000 1695.000 m 
+180.000 1702.500 l
+176.250 1695.000 l
+180.000 1687.500 l
+h
+f
+0.00 g
+[] 0 d
+155.000 1610.000 m 
+147.500 1625.000 l
+155.000 1621.250 l
+162.500 1625.000 l
+h
+f
+0.00 g
+[] 0 d
+25.000 1760.000 m 
+10.000 1752.500 l
+13.750 1760.000 l
+10.000 1767.500 l
+h
+f
+0.00 g
+[] 0 d
+2170.000 1750.000 m 
+2162.500 1765.000 l
+2170.000 1761.250 l
+2177.500 1765.000 l
+h
+f
+0.00 g
+[] 0 d
+1230.000 1480.000 m 
+1237.500 1465.000 l
+1230.000 1468.750 l
+1222.500 1465.000 l
+h
+f
+0.00 g
+[] 0 d
+1210.000 1025.000 m 
+1217.500 1010.000 l
+1210.000 1013.750 l
+1202.500 1010.000 l
+h
+f
+0.00 g
+[] 0 d
+785.000 1025.000 m 
+792.500 1010.000 l
+785.000 1013.750 l
+777.500 1010.000 l
+h
+f
+0.00 g
+[] 0 d
+395.000 1025.000 m 
+402.500 1010.000 l
+395.000 1013.750 l
+387.500 1010.000 l
+h
+f
+0.00 g
+[] 0 d
+355.000 1025.000 m 
+362.500 1010.000 l
+355.000 1013.750 l
+347.500 1010.000 l
+h
+f
+0.00 g
+[] 0 d
+315.000 1025.000 m 
+322.500 1010.000 l
+315.000 1013.750 l
+307.500 1010.000 l
+h
+f
+0.00 g
+[] 0 d
+2445.000 515.000 m 
+2460.000 522.500 l
+2456.250 515.000 l
+2460.000 507.500 l
+h
+f
+0.00 g
+[] 0 d
+2825.000 360.000 m 
+2840.000 367.500 l
+2836.250 360.000 l
+2840.000 352.500 l
+h
+f
+0.00 g
+[] 0 d
+3180.000 195.000 m 
+3195.000 202.500 l
+3191.250 195.000 l
+3195.000 187.500 l
+h
+f
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3115.000 1895.000 m 
+3115.000 2220.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3115.000 2080.000 m 
+2560.000 2080.000 l
+2560.000 2215.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+3050.000 2535.000 m 
+3050.000 2720.000 l
+2110.000 2720.000 l
+2110.000 2285.000 l
+2300.000 2285.000 l
+S
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2390.000 2400.000 m 
+2300.000 2400.000 l
+2300.000 1760.000 l
+S
+0.00 g
+[] 0 d
+2300.000 1750.000 m 
+2292.500 1765.000 l
+2300.000 1761.250 l
+2307.500 1765.000 l
+h
+f
+0.00 g
+[] 0 d
+2560.000 2210.000 m 
+2552.500 2195.000 l
+2560.000 2198.750 l
+2567.500 2195.000 l
+h
+f
+0.00 g
+[] 0 d
+3115.000 2220.000 m 
+3107.500 2205.000 l
+3115.000 2208.750 l
+3122.500 2205.000 l
+h
+f
+0.00 g
+[] 0 d
+1685.000 850.000 m 
+1700.000 857.500 l
+1696.250 850.000 l
+1700.000 842.500 l
+h
+f
+0.00 g
+[] 0 d
+1590.000 1750.000 m 
+1597.500 1735.000 l
+1590.000 1738.750 l
+1582.500 1735.000 l
+h
+f
+0.00 g
+[] 0 d
+1910.000 1370.000 m 
+1915.303 1385.910 l
+1917.955 1377.955 l
+1925.910 1375.303 l
+h
+f
+0.00 g
+[] 0 d
+2340.000 1370.000 m 
+2345.303 1385.910 l
+2347.955 1377.955 l
+2355.910 1375.303 l
+h
+f
+0.00 g
+[] 0 d
+2710.000 1375.000 m 
+2715.303 1390.910 l
+2717.955 1382.955 l
+2725.910 1380.303 l
+h
+f
+0.00 g
+[] 0 d
+3045.000 1380.000 m 
+3037.500 1395.000 l
+3045.000 1391.250 l
+3052.500 1395.000 l
+h
+f
+0.00 g
+[] 0 d
+2300.000 2285.000 m 
+2285.000 2277.500 l
+2288.750 2285.000 l
+2285.000 2292.500 l
+h
+f
+10.00 w
+BT
+16.00 TL
+0.000 g
+2925.00 1430.00 Td
+/F3 16 Tf
+(Opcode=6'h0) Tj
+/F4 16 Tf
+<ff0c> Tj
+/F3 16 Tf
+(Funct!=6'h08,6'h09) Tj
+ET
+10.00 w
+BT
+16.00 TL
+0.000 g
+2640.00 1420.00 Td
+/F3 16 Tf
+(Opcode=6'h0) Tj
+/F4 16 Tf
+<ff0c> Tj
+/F3 16 Tf
+(Funct=6'h09) Tj
+ET
+10.00 w
+BT
+16.00 TL
+0.000 g
+2340.00 1390.00 Td
+/F3 16 Tf
+(Opcode=6'h0) Tj
+/F4 16 Tf
+<ff0c> Tj
+/F3 16 Tf
+(Funct=6'h08) Tj
+ET
+10.00 w
+BT
+16.00 TL
+0.000 g
+1840.00 1405.00 Td
+/F3 16 Tf
+(Opcode=6'h0) Tj
+/F4 16 Tf
+<ff0c> Tj
+/F3 16 Tf
+(Funct=6'h00,6'h02,6'h03) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+3135.00 2005.00 Td
+(Opcode=6'h03) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+2665.00 2045.00 Td
+(Opcode=6'h02) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+2675.00 550.00 Td
+(Opcode=6'h23,6'h2b,6'h08,6'h09,6'h0b,6'h0a) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+2905.00 385.00 Td
+(Opcode=6'h0c) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+3235.00 220.00 Td
+(Opcode=6'h0f) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+1055.00 620.00 Td
+(Opcode=6'h23) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+620.00 615.00 Td
+(Opcode=6'h2b) Tj
+ET
+10.00 w
+BT
+/F3 16 Tf
+16.00 TL
+0.000 g
+400.00 465.00 Td
+(Opcode=6'h08,6'h09,6'h0b,6'h0a) Tj
+ET
+1 J
+1 j
+1.00 w
+0.00 G
+0.00 g
+[] 0 d
+2700.000 1065.000 m 
+2700.000 850.000 l
+S
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Descent -209
+/CapHeight 727
+/StemV 0
+/Type /FontDescriptor
+/Flags 32
+/FontBBox [-559 -303 1446 1050]
+/FontName /Verdana
+/ItalicAngle 0
+/Ascent 1005
+>>
+endobj
+6 0 obj
+<</Subtype/TrueType/Type/Font/BaseFont/Verdana/FontDescriptor 5 0 R/Encoding/WinAnsiEncoding /FirstChar 32 /LastChar 255 /Widths [351 393 458 818 635 1076 726 268 454 454 635 818 363 454 363 454 635 635 635 635 635 635 635 635 635 635 454 454 818 818 818 545 1000 683 685 698 770 632 574 775 751 420 454 692 556 842 748 787 603 787 695 683 616 731 683 988 685 615 685 454 454 454 818 635 635 600 623 520 623 595 351 623 632 274 344 591 274 972 632 606 623 623 426 520 394 632 591 818 591 591 525 634 454 634 818 632 635 545 268 635 458 818 635 635 635 1521 683 454 1069 545 685 545 545 268 268 458 458 545 635 1000 635 976 520 454 981 545 525 615 351 393 635 635 635 635 454 635 635 1000 545 644 818 454 1000 635 541 818 541 541 635 641 635 363 635 541 545 644 1000 1000 1000 545 683 683 683 683 683 683 984 698 632 632 632 632 420 420 420 420 775 748 787 787 787 787 787 818 787 731 731 731 731 615 605 620 600 600 600 600 600 600 955 520 595 595 595 595 274 274 274 274 611 632 606 606 606 606 606 818 606 632 632 632 632 591 623 591]>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /simhei
+/FontBBox [-11 -156 996 859]
+/Flags 32
+/StemV 0
+/ItalicAngle 0
+/Ascent 859
+/Descent -140
+/CapHeight 687
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /simhei
+/FontDescriptor 7 0 R
+/W [1 95 500 738 813 1000]
+/Subtype /CIDFontType2
+/CIDSystemInfo
+<<
+/Ordering (GB1)
+/Registry (Adobe)
+/Supplement 2
+>>
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type0
+/BaseFont /simhei
+/Encoding /UniGB-UCS2-H
+/DescendantFonts [8 0 R]
+>>
+endobj
+10 0 obj
+<<
+/Descent -209
+/CapHeight 727
+/StemV 0
+/Type /FontDescriptor
+/Flags 32
+/FontBBox [-559 -303 1446 1050]
+/FontName /Verdana,Bold
+/ItalicAngle 0
+/Ascent 1005
+>>
+endobj
+11 0 obj
+<</Subtype/TrueType/Type/Font/BaseFont/Verdana,Bold/FontDescriptor 10 0 R/Encoding/WinAnsiEncoding /FirstChar 32 /LastChar 255 /Widths [351 393 458 818 635 1076 726 268 454 454 635 818 363 454 363 454 635 635 635 635 635 635 635 635 635 635 454 454 818 818 818 545 1000 683 685 698 770 632 574 775 751 420 454 692 556 842 748 787 603 787 695 683 616 731 683 988 685 615 685 454 454 454 818 635 635 600 623 520 623 595 351 623 632 274 344 591 274 972 632 606 623 623 426 520 394 632 591 818 591 591 525 634 454 634 818 632 635 545 268 635 458 818 635 635 635 1521 683 454 1069 545 685 545 545 268 268 458 458 545 635 1000 635 976 520 454 981 545 525 615 351 393 635 635 635 635 454 635 635 1000 545 644 818 454 1000 635 541 818 541 541 635 641 635 363 635 541 545 644 1000 1000 1000 545 683 683 683 683 683 683 984 698 632 632 632 632 420 420 420 420 775 748 787 787 787 787 787 818 787 731 731 731 731 615 605 620 600 600 600 600 600 600 955 520 595 595 595 595 274 274 274 274 611 632 606 606 606 606 606 818 606 632 632 632 632 591 623 591]>>
+endobj
+12 0 obj
+<<
+/Type /FontDescriptor
+/FontName /simhei,Bold
+/FontBBox [-11 -156 996 859]
+/Flags 32
+/StemV 0
+/ItalicAngle 0
+/Ascent 859
+/Descent -140
+/CapHeight 687
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /simhei,Bold
+/FontDescriptor 12 0 R
+/W [1 95 500 738 813 1000]
+/Subtype /CIDFontType2
+/CIDSystemInfo
+<<
+/Ordering (GB1)
+/Registry (Adobe)
+/Supplement 2
+>>
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type0
+/BaseFont /simhei,Bold
+/Encoding /UniGB-UCS2-H
+/DescendantFonts [13 0 R]
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 6 0 R
+/F2 9 0 R
+/F3 11 0 R
+/F4 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Producer (jsPDF 0.0.0)
+/CreationDate (D:20220616145243+08'00')
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000016663 00000 n 
+0000020147 00000 n 
+0000000015 00000 n 
+0000000126 00000 n 
+0000016720 00000 n 
+0000016890 00000 n 
+0000017944 00000 n 
+0000018109 00000 n 
+0000018301 00000 n 
+0000018417 00000 n 
+0000018593 00000 n 
+0000019654 00000 n 
+0000019825 00000 n 
+0000020024 00000 n 
+0000020283 00000 n 
+0000020369 00000 n 
+trailer
+<<
+/Size 17
+/Root 16 0 R
+/Info 15 0 R
+/ID [ <F5B50C673F4E46B36AE5A5206BAF7ACA> <F5B50C673F4E46B36AE5A5206BAF7ACA> ]
+>>
+startxref
+20473
+%%EOF
