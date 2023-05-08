@@ -1,0 +1,118 @@
+
+module InstructionMemory(Address,Opcode,rs,rt,rd,Shamt,Funct);
+	input [31:0] Address;
+	reg [31:0] Instruction;
+	output [5:0] Opcode;
+	output [4:0] rs;
+	output [4:0] rt;
+	output [4:0] rd;
+	output [4:0] Shamt;
+	output [5:0] Funct;
+	assign Opcode=Instruction[31:26];
+	assign rs=Instruction[25:21];
+	assign rt=Instruction[20:16];
+	assign rd=Instruction[15:11];
+	assign Shamt=Instruction[10:6];
+	assign Funct=Instruction[5:0];
+	
+	always @(*)
+		case (Address[9:2])
+		8'd0:   Instruction <= 32'h24050004;
+        8'd1:   Instruction <= 32'h240400f9;
+        8'd2:   Instruction <= 32'h24070000;
+        8'd3:   Instruction <= 32'h24060004;
+        8'd4:   Instruction <= 32'h20144000;
+        8'd5:   Instruction <= 32'h24080000;
+        8'd6:   Instruction <= 32'h24090000;
+        8'd7:   Instruction <= 32'h0014a400;
+        8'd8:   Instruction <= 32'h24020000;
+        8'd9:   Instruction <= 32'h00865022;
+        8'd10:   Instruction <= 32'h22940010;
+        8'd11:   Instruction <= 32'h2415000f;
+        8'd12:   Instruction <= 32'h24090000;
+        8'd13:   Instruction <= 32'h01095820;
+        8'd14:   Instruction <= 32'h00ab5820;
+        8'd15:   Instruction <= 32'h00e96020;
+        8'd16:   Instruction <= 32'h816b0000;
+        8'd17:   Instruction <= 32'h818c0000;
+        8'd18:   Instruction <= 32'h156c0003;
+        8'd19:   Instruction <= 32'h21290001;
+        8'd20:   Instruction <= 32'h0126082a;
+        8'd21:   Instruction <= 32'h1420fff7;
+        8'd22:   Instruction <= 32'h15260001;
+        8'd23:   Instruction <= 32'h20420001;
+        8'd24:   Instruction <= 32'h21080001;
+        8'd25:   Instruction <= 32'h0148082a;
+        8'd26:   Instruction <= 32'h1020fff1;
+        8'd27:   Instruction <= 32'h200800c0;
+        8'd28:   Instruction <= 32'h200900f9;
+        8'd29:   Instruction <= 32'h200a00a4;
+        8'd30:   Instruction <= 32'h200b00b0;
+        8'd31:   Instruction <= 32'h200c0099;
+        8'd32:   Instruction <= 32'hac080100;
+        8'd33:   Instruction <= 32'hac090104;
+        8'd34:   Instruction <= 32'hac0a0108;
+        8'd35:   Instruction <= 32'hac0b010c;
+        8'd36:   Instruction <= 32'hac0c0110;
+        8'd37:   Instruction <= 32'h20080092;
+        8'd38:   Instruction <= 32'h20090082;
+        8'd39:   Instruction <= 32'h200a00f8;
+        8'd40:   Instruction <= 32'h200b0080;
+        8'd41:   Instruction <= 32'h200c0090;
+        8'd42:   Instruction <= 32'hac080114;
+        8'd43:   Instruction <= 32'hac090118;
+        8'd44:   Instruction <= 32'hac0a011c;
+        8'd45:   Instruction <= 32'hac0b0120;
+        8'd46:   Instruction <= 32'hac0c0124;
+        8'd47:   Instruction <= 32'h20080088;
+        8'd48:   Instruction <= 32'h20090083;
+        8'd49:   Instruction <= 32'h200a00c6;
+        8'd50:   Instruction <= 32'h200b00a1;
+        8'd51:   Instruction <= 32'h200c0086;
+        8'd52:   Instruction <= 32'h200d008e;
+        8'd53:   Instruction <= 32'hac080128;
+        8'd54:   Instruction <= 32'hac09012c;
+        8'd55:   Instruction <= 32'hac0a0130;
+        8'd56:   Instruction <= 32'hac0b0134;
+        8'd57:   Instruction <= 32'hac0c0138;
+        8'd58:   Instruction <= 32'hac0d013c;
+        8'd59:   Instruction <= 32'h3050000f;
+        8'd60:   Instruction <= 32'h305100f0;
+        8'd61:   Instruction <= 32'h30520f00;
+        8'd62:   Instruction <= 32'h3053f000;
+        8'd63:   Instruction <= 32'h00108080;
+        8'd64:   Instruction <= 32'h00118882;
+        8'd65:   Instruction <= 32'h00129182;
+        8'd66:   Instruction <= 32'h00139a82;
+        8'd67:   Instruction <= 32'h8e100100;
+        8'd68:   Instruction <= 32'h8e310100;
+        8'd69:   Instruction <= 32'h8e520100;
+        8'd70:   Instruction <= 32'h8e730100;
+        8'd71:   Instruction <= 32'h22100e00;
+        8'd72:   Instruction <= 32'h22310d00;
+        8'd73:   Instruction <= 32'h22520b00;
+        8'd74:   Instruction <= 32'h22730700;
+    
+        
+        8'd75:   Instruction <= 32'h24080000;
+        8'd76:   Instruction <= 32'hae900000;
+        8'd77:   Instruction <= 32'h21080001;
+        8'd78:   Instruction <= 32'h1515fffe;
+        8'd79:   Instruction <= 32'h24080000;
+        8'd80:   Instruction <= 32'hae910000;
+        8'd81:   Instruction <= 32'h21080001;
+        8'd82:   Instruction <= 32'h1515fffe;
+        8'd83:   Instruction <= 32'h24080000;
+        8'd84:   Instruction <= 32'hae920000;
+        8'd85:   Instruction <= 32'h21080001;
+        8'd86:   Instruction <= 32'h1515fffe;
+        8'd87:   Instruction <= 32'h24080000;
+        8'd88:   Instruction <= 32'hae930000;
+        8'd89:   Instruction <= 32'h21080001;
+        8'd90:   Instruction <= 32'h1515fffe;
+        8'd91:   Instruction <= 32'h0800012c;
+
+			default: Instruction <= 32'h00000000;
+		endcase
+		
+endmodule
